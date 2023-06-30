@@ -1,0 +1,15 @@
+{
+  "name": "hi-chat-2.0",
+  "version": "1.0.0",
+  "description": "web chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr. Kishan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1"
+  }
+}

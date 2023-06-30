@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi Chat</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <section class="chat_section">
+      <div class="brand">
+        <img height="40px" src="/chat.png" alt="" srcset="" />
+        <h1>Hi Chat</h1>
+        <div class="users">
+            <label>Online Users</label><br>
+        <form>
+          <select id="online_users">
+            <option value="Grapes">Grapes</option>
+            <div class="joined">
+              <option value="Tomatoes">Tomatoes</option>
+
+            </div>
+          </select>
+        </form>
+        </div>
+        
+      </div>
+      <div class="message_area">
+        <!-- <div class="message incoming">
+                <h4>Manish</h4>
+                <p>HI, there</p>
+            </div>
+            <div class="message outgoing">
+                <h4>Kishan</h4>
+                <p>Hlo, How are you?</p>
+            </div> -->
+      </div>
+      <textarea
+        name=""
+        id="textarea"
+        cols="30"
+        rows="1"
+        placeholder="Write a message..."
+      ></textarea>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
